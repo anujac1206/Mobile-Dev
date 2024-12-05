@@ -12,8 +12,6 @@ An intuitive app that helps users find and display recipes based on the ingredie
 - Navigate smoothly between Home, Ingredients Input, and Recipe Display screens.  
 - Upcoming enhancements include dark mode, favorites feature, and more.  
 
----
-
 ### **2. FitTrack - BMI Calculator**  
 **Description:**  
 A sleek and easy-to-use app that calculates Body Mass Index (BMI) based on user input. It provides valuable insights into fitness levels and categorizes BMI into health ranges.  
@@ -23,8 +21,6 @@ A sleek and easy-to-use app that calculates Body Mass Index (BMI) based on user 
 - Display BMI category (e.g., underweight, normal, overweight, obese).  
 - Minimalistic and user-friendly UI.  
 - Future plans include incorporating fitness tips and progress tracking features.  
-
----
 
 ### **3. TaskTastic - Task Manager**  
 **Description:**  
