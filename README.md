@@ -34,7 +34,7 @@ A powerful application that detects and classifies seven human emotions (happy, 
 - Designed to work with essential libraries like TensorFlow/Keras, NumPy, and Matplotlib.
 
 
-### **3. TaskTastic - Task Manager**  
+### **4. TaskTastic - Task Manager**  
 **Description:**  
 Turn chaos into clarity with this task management app. TaskTastic is designed to simplify task organization and boost productivity with sleek features and an intuitive interface.  
 
