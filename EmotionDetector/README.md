@@ -1,8 +1,65 @@
-# Android app for real-time emotion recognition
+# Real-Time Emotion Detector  
 
-The app lets you recognize people's emotions using your smartphone's camera.
+A robust application designed to detect and classify human emotions in real time using video input. Built with **Python**, it leverages **OpenCV** and a **Convolutional Neural Network (CNN)** to ensure accurate and efficient emotion recognition.  
 
-### App
+**Project Maintainer**: Disha  
+
+**Project Mentor**: Shriya 
+
+---
+
+## **Description**  
+The *Real-Time Emotion Detector* analyzes live video feeds to detect and classify seven distinct human emotions: happy, sad, surprise, angry, neutral, and disgust. By combining real-time video processing with a CNN model, the app ensures precise and instantaneous emotion recognition.  
+
+The app currently includes the following components:  
+
+### **Emotion Detection Module**  
+- Analyzes video frames using OpenCV to identify emotions in real time.  
+- Employs a CNN model trained on a curated dataset for high accuracy.  
+
+### **Live Video Processing**  
+- Real-time processing ensures immediate emotion detection from live feeds.  
+
+### **Model Training and Customization**  
+- Supports retraining of the model with custom datasets for specific use cases.  
+
+**Prerequisites**:  
+- Python 3.x  
+- OpenCV  
+- TensorFlow or Keras  
+- NumPy  
+- Matplotlib  
+
+---
+
+## **Objective for Contributors**  
+This project invites developers of all skill levels to contribute and improve the app. Goals include:  
+- Enhancing emotion detection accuracy and speed.  
+- Expanding the range of detectable emotions.  
+- Adding user-friendly features like visual emotion summaries or multilingual support.  
+- Ensuring the app’s compatibility across multiple platforms.  
+
+---
+
+## **Issues**  
+Here are some areas where contributors can make an impact:  
+
+1. **Expand Emotion Set**: Add detection for additional emotions like fear or confusion.  
+2. **Visualization Feature**: Implement graphical summaries of detected emotions, such as pie charts or timelines.  
+3. **Cross-Platform Support**: Adapt the app for mobile platforms and ensure seamless performance.  
+4. **Dark Mode**: Add a dark theme for better usability in low-light conditions.  
+5. **User Interface Improvements**: Design a more interactive and visually appealing UI.  
+
+---
+
+## **Acknowledgments**  
+Special thanks to open-source libraries like OpenCV, TensorFlow, and Matplotlib for making this project possible.  
+
+**Note**: For further improvements or questions, feel free to raise issues or contribute directly to the repository.  
+
+
+
+### App(About)
 
 At first, it identifies faces visible through smartphone's camera. Then, based on a facial expression, it predicts 1 of 7 basic emotions (angry, disgust, fear, happy, sad, surprise, contempt) or neutrality.
 
