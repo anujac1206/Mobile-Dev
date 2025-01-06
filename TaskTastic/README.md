@@ -21,15 +21,7 @@ It’s a simple and sleek app that keeps your life organized. Whether you need t
 
 ---
 
-## **Why Contribute?**
-
-TaskTastic is all about making productivity simple and accessible. We’re looking for contributors who are passionate about improving user experiences, adding cool features, and making things work better.
-
-Whether you’re a newbie or a seasoned developer, your contributions are welcome!
-
----
-
-## **To-Do List for Contributors**
+## **Issues**
 
 Here are some ways you can make TaskTastic even better:
 
@@ -70,12 +62,5 @@ Here’s how you can set up TaskTastic on your device:
 5. Run the app:  
    ```bash
    flutter run
----
-
-## **Dreaming Big**  
-
-We’ve got some exciting ideas for the future:  
-- **Productivity Stats**: Show users how they’re improving over time.  
-- **Collaboration Tools**: Share task lists with friends or teammates.  
-- **Dark Mode**: For night owls and low-light users.  
+---  
 
