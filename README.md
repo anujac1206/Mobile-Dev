@@ -1,6 +1,10 @@
 # Mobile-Dev-Repo 
 A collection of diverse Flutter-based mobile applications, each addressing a unique use case and showcasing different aspects of mobile app development. This repository is ideal for developers who want to explore and contribute to projects with varying levels of complexity and features.  
 
+### Project Maintainer
+- [Shriya S](https://github.com/soctopus2327) (GDG Mobile Dev Circle Manager)
+- [Vani Varanya](https://github.com/vanivaranya) (GDG Technical Lead)
+
 ## **Projects Overview**  
 ### **1. Recipe Finder**  
 **Description:**  
