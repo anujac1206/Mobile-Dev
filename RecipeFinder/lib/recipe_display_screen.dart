@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-
+import 'menu_drawer.dart';
 class RecipeDisplayScreen extends StatefulWidget {
   @override
   _RecipeDisplayScreenState createState() => _RecipeDisplayScreenState();
@@ -29,6 +29,7 @@ class _RecipeDisplayScreenState extends State<RecipeDisplayScreen> {
 
     return Scaffold(
       appBar: AppBar(title: Text("Recipes for $ingredient")),
+      drawer: MenuDrawer(),
       body: FutureBuilder<List<dynamic>>(
         future: _recipes,
         builder: (context, snapshot) {
