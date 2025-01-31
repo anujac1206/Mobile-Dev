@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'menu_drawer.dart';
 
 class IngredientInputScreen extends StatefulWidget {
   @override
@@ -22,6 +23,7 @@ class _IngredientInputScreenState extends State<IngredientInputScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Enter Ingredient")),
+      drawer: MenuDrawer(),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(

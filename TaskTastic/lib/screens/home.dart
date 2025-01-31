@@ -142,6 +142,7 @@ class _HomeState extends State<Home> {
   }
 
   void _addToDoItem(String toDo) {
+    if(toDo.trim().isEmpty) return;
     setState(() {
       todosList.add(ToDo(
         id: DateTime.now().millisecondsSinceEpoch.toString(),
@@ -163,8 +164,10 @@ class _HomeState extends State<Home> {
           .toList();
     }
 
+    //made some changes gere for order of due dates task
     setState(() {
-      _foundToDo = results;
+      _foundToDo = List.from(results.reversed);
+      _foundToDo.sort((a,b)=>a.dueDate!.compareTo(b.dueDate!));
     });
   }
 

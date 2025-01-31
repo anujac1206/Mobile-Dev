@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:intl/intl.dart';
 import '../model/todo.dart';
 import '../constants/colors.dart';
 
@@ -33,13 +33,29 @@ class ToDoItem extends StatelessWidget {
           todo.isDone ? Icons.check_box : Icons.check_box_outline_blank,
           color: tdBlue,
         ),
-        title: Text(
-          todo.todoText!,
-          style: TextStyle(
-            fontSize: 16,
-            color: tdBlack,
-            decoration: todo.isDone ? TextDecoration.lineThrough : null,
-          ),
+        title: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              todo.todoText!,
+              style: TextStyle(
+                fontSize: 16,
+                color: tdBlack,
+                decoration: todo.isDone ? TextDecoration.lineThrough : null,
+              ),
+            ),
+            //Made some changes here for due date ui regrading formatting and how it appears on the screen
+            if (todo.dueDate != null)
+              Text(
+                'Due: ${DateFormat('MMM dd, yyyy').format(todo.dueDate!)}',
+                style: TextStyle(
+                  fontSize: 12,
+                  color: todo.dueDate!.isBefore(DateTime.now())
+                      ? Colors.red
+                      : Colors.grey,
+                ),
+              )
+          ],
         ),
         trailing: Container(
           padding: EdgeInsets.all(0),
